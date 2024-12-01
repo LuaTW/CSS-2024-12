@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+
+    <title>animal</title>
+    <style>
+        .container {
+            display: flex;
+            width: 80%;
+            /* 相對於視窗的寬度 */
+            aspect-ratio: 2 / 1;
+            /* 定義寬高比為2:1 */
+            background-color: rgb(130, 200, 200);
+        }
+
+        .img {
+            flex: 3;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .img img {
+            border-radius: 30px;
+            width: 80%;
+            height: auto;
+        }
+
+        .main {
+            flex: 7;
+            display: flex;
+            flex-direction: column;
+            height: 70%;
+            padding: 20px;
+            margin: auto;
+        }
+
+        .title {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .content {
+            font-size: 20px;
+            height: 80%;
+
+            overflow: auto;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="img">
+            <img src="./web-img/003.jpg" alt="">
+        </div>
+        <div class="main">
+            <div class="title">HELLO</div>
+            <div class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui accusantium cumque minima
+                dignissimos vitae nihil, deleniti explicabo corporis saepe expedita eaque, quis tenetur distinctio ullam
+                eos earum esse culpa laudantium. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto
+                perspiciatis, adipisci recusandae enim ducimus maiores ullam doloribus nobis suscipit debitis iste
+                placeat inventore explicabo neque ea sunt harum consectetur! Dolorem.</div>
+        </div>
+    </div>
+</body>
+
+</html>
